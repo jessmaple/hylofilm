@@ -1,0 +1,14 @@
+
+body, html {
+    background-color: #f9aae1;
+}
+
+
+main#MainContent{
+    max-width: 660px;
+    margin: auto;
+    width: 100%;
+    text-align: left;
+    padding-top: 70px;
+}
+}
