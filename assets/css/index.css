@@ -14,9 +14,9 @@ body{
     
     font-family: 'farm_neue_lt_std75_bold';
     font-weight:bold;
-    text-transform:uppercase;
+    text-transform:lowercase;
     padding:10px;
-    color: #343a2e;
+    color: black;
 
 }
 
