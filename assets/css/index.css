@@ -305,13 +305,16 @@ span {
           transform: perspective(10000px) rotateY(360deg) rotateX(-5deg);
       }
       
+      100% {
+        transform: perspective(10000px) rotateY(360deg) rotateX(-5deg);
+      }
   }
 
   .circle .char {
       position: flex;
       top: 0;
       left: 0;      
-      color: #35146f;
+      color: black;
       font-size: 45px;
       padding: 1px 2px;
       transform-style: preserve-3d;
