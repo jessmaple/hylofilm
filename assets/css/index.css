@@ -25,6 +25,14 @@ h1 {
     font-family: briar;
 }
 
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
 ul.site-nav {
     margin: auto;
     list-style: none;
@@ -283,4 +291,31 @@ span {
   #myBtn:hover {
     background: #ddd;
     color: black;
+  }
+
+  .circle {
+      transform-style: preserve-3d;
+      animation: animate 8s linear infinite;
+  }
+
+  @keyframes animate
+  {
+      0%
+      {
+          transform: perspective(10000px) rotateY(360deg) rotateX(-5deg);
+      }
+      
+  }
+
+  .circle .char {
+      position: flex;
+      top: 0;
+      left: 0;      
+      color: #35146f;
+      font-size: 45px;
+      padding: 1px 2px;
+      transform-style: preserve-3d;
+      transform-origin: center;
+      transform: rotate(calc(var(--char-index) * 2deg))
+      translateZ(250px);
   }
