@@ -293,7 +293,7 @@ span {
     color: black;
   }
 
-  .circle {
+  /* .circle {
       transform-style: preserve-3d;
       animation: animate 8s linear infinite;
   }
@@ -321,4 +321,7 @@ span {
       transform-origin: center;
       transform: rotate(calc(var(--char-index) * 2deg))
       translateZ(250px);
-  }
+  } */
+
+
+  
